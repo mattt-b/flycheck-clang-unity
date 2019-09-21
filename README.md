@@ -1,5 +1,10 @@
+**Note:** [Rtags](https://github.com/Andersbakken/rtags) appears to handle unity builds correctly.
+I'd suggest using it instead.
+
+
 Very basic flycheck integration for handling clang projects that use a unity build.
-Every other flycheck integration I could find does not work for unity builds.
+~~Every other flycheck integration I could find does not work for unity builds~~
+*[Rtags](https://github.com/Andersbakken/rtags) seems to work.*
 
 This will not activate by default, so you shouldn't have issues using it alongside
 other c/c++ checkers.
